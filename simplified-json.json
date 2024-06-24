@@ -1,0 +1,134 @@
+{
+  "globals": {
+    "ocioconfig": "./config.ocio",
+    "ocio_transform": ["linear", "sRGB"],
+    "debug": true,
+    "cropwidth": null,
+    "cropheight": null,
+    "width": 1920,
+    "height": 1080,
+    "fit": true,
+    "filter": null,
+    "framerate": 24,
+    "vf": null,
+    "output_codec": "hevc",
+    "movie_location": "D:/Work/generate-dailies/tmp/dailies/",
+    "movie_ext": "mov",
+    "movie_append_codec": true
+  },
+
+  "slate_profiles": {
+    "zero_frame": {
+      "images": {
+        "enable": true,
+        "thumbnail": {
+          "iswatermark": false,
+          "scale": 0.15,
+          "offset": [0.75, 0.3],
+          "src": "img_path"
+        }
+      },
+      "datetime": {
+        "enable": true,
+        "datetime": {
+          "font": "fonts/Helvetica/Helvetica.ttf",
+          "font_size": 0.0145833333333,
+          "box": [0.03125, 0.9166666666666666, 0.125, 0.9398148148148148],
+          "font_color": [1, 1, 1, 1],
+          "justify": "left",
+          "datetime_format": "%Y-%m-%d"
+        }
+      },
+      "dynamic_text_elements": {
+        "enable": true,
+        "framecounter": {
+          "font": "fonts/Helvetica/Helvetica.ttf",
+          "font_size": 0.0145833333333,
+          "box": [
+            0.8697916666666666, 0.046296296296296294, 0.9427083333333334,
+            0.09722222222222222
+          ],
+          "font_color": [1, 1, 1, 1],
+          "justify": "center",
+          "value": "",
+          "padding": 5
+        }
+      },
+      "static_text_elements": {
+        "enable": true,
+        "shot_name": {
+          "font": "fonts/Helvetica/Helvetica.ttf",
+          "font_size": 0.0145833333333,
+          "box": [
+            0.030729166666666665, 0.041666666666666664, 0.4036458333333333,
+            0.08333333333333333
+          ],
+          "font_color": [1, 1, 1, 1],
+          "justify": "left",
+          "value": ""
+        },
+        "department": {
+          "font": "fonts/Helvetica/Helvetica.ttf",
+          "font_size": 0.0145833333333,
+          "box": [
+            0.8020833333333334, 0.9259259259259259, 0.8645833333333334,
+            0.9583333333333334
+          ],
+          "font_color": [1, 1, 18, 1],
+          "justify": "right",
+          "value": ""
+        },
+        "version": {
+          "font": "fonts/Helvetica/Helvetica.ttf",
+          "font_size": 0.0145833333333,
+          "box": [
+            0.8723958333333334, 0.9259259259259259, 0.9427083333333334,
+            0.9583333333333334
+          ],
+          "font_color": [1, 1, 1, 1],
+          "justify": "left",
+          "value": ""
+        },
+        "artist": {
+          "font": "fonts/Helvetica/Helvetica.ttf",
+          "font_size": 0.0145833333333,
+          "box": [
+            0.8020833333333334, 0.8888888888888888, 0.9427083333333334,
+            0.9074074074074074
+          ],
+          "font_color": [1, 1, 1, 1],
+          "justify": "center",
+          "value": ""
+        }
+      }
+    },
+    "first_frame": {
+      "images": {
+        "enable": true,
+        "thumbnail": {
+          "iswatermark": false,
+          "scale": 0.15,
+          "offset": [0.75, 0.3],
+          "src": "E:/asdsd"
+        }
+      },
+      "datetime": {
+        "enable": true,
+        "datetime": {
+          "font": "fonts/Helvetica/Helvetica.ttf",
+          "font_size": 0.0145833333333,
+          "box": [0.03125, 0.9166666666666666, 0.125, 0.9398148148148148],
+          "font_color": [1, 1, 1, 1],
+          "justify": "left",
+          "datetime_format": "%Y-%m-%d"
+        }
+      },
+      "dynamic_text_elements": {
+        "enable": false
+      },
+      "static_text_elements": {
+        "enable": false
+      }
+    }
+  }
+}
