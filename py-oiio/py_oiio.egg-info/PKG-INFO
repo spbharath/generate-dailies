@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: py-oiio
+Version: 0.0.1
+Summary: OpenImageIO (OIIO) for Python
+Home-page: https://github.com/Correct-Syntax/py-oiio
+Author: Noah Rahm
+Author-email: correctsyntax@yahoo.com
+License: MIT
+Keywords: openimageio,oiio
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
